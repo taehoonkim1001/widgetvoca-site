@@ -93,3 +93,6 @@ footer a { color: var(--ink60); }
 }
 .features li:last-child { border-bottom: none; }
 .features strong { display: block; color: var(--ink); font-weight: 600; margin-bottom: 2px; }
+
+.biz { color: var(--ink36); font-size: 12px; line-height: 1.6; margin: 12px 0 0; }
+.biz a { color: var(--ink36); }
