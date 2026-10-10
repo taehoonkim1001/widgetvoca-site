@@ -3,8 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>위젯보카</title>
-<meta name="description" content="홈 화면 위젯으로 외우는 단어장 앱, 위젯보카.">
+<title>위젯보카 - AI 단어장, 영단어, 일본어, 암기</title>
+<meta name="description" content="외울 단어를 홈 화면 위젯에 띄워 두면 폰을 켤 때마다 마주쳐요. 단어만 치면 뜻·발음·예문은 AI가 채워 줘요. 영어·일본어 단어장, 위젯보카.">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="위젯보카">
+<meta property="og:title" content="위젯보카 - 홈 화면에서 외우는 단어장">
+<meta property="og:description" content="단어만 치면 뜻·발음·예문은 AI가. 외울 단어는 홈 화면 위젯에 띄워 두고 폰 켤 때마다 다시 봐요.">
+<meta property="og:url" content="https://taehoonkim1001.github.io/widgetvoca-site/">
+<meta property="og:image" content="https://taehoonkim1001.github.io/widgetvoca-site/og.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,30 +29,46 @@
     </svg>
     <span>위젯보카</span>
   </a>
-  <h1>홈 화면에서 외우는 단어장</h1>
-  <p class="meta">잠금화면과 홈 화면 위젯으로 단어를 계속 마주치게 만드는 학습 앱입니다.</p>
+  <h1>앱 안팎으로 외우자</h1>
+  <p class="lead">밖에서는 <strong>홈 화면 위젯</strong>으로, 안에서는 <strong>AI</strong>와 함께.<br>영어 · 일본어 단어장, 위젯보카예요.</p>
+  <div class="stores">
+    <a class="store-btn" href="https://apps.apple.com/kr/app/id6810714347" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 19.5h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><small>아이폰</small>App Store에서 받기</span>
+    </a>
+    <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.widgetvoca.widgetvoca" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 19.5h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><small>안드로이드</small>Google Play에서 받기</span>
+    </a>
+  </div>
 </header>
 
 <main>
-  <h2>소개</h2>
-  <p>위젯보카는 외우고 싶은 단어를 홈 화면 위젯에 띄워 두는 단어장 앱입니다. 앱을 일부러 열지 않아도 하루에 몇 번씩 자연스럽게 단어를 다시 보게 되고, 위젯을 누르면 그 단어가 있는 서랍으로 바로 이동합니다.</p>
-  <ul>
-    <li>폴더 · 서랍으로 정리하는 단어장 (영어 · 일본어)</li>
-    <li>홈 화면 &middot; 잠금화면 위젯 자동 롤링</li>
-    <li>단어 읽어주기, 플래시 카드 학습</li>
-    <li>라운지에서 다른 사람의 단어장 둘러보기</li>
-    <li>CSV로 단어 가져오기 &middot; 내보내기</li>
+  <h2>이런 앱이에요</h2>
+  <p>외울 단어를 홈 화면 위젯에 띄워 두면, 앱을 열지 않아도 폰을 켤 때마다 마주쳐요. 단어장을 만들 때 뜻을 찾아 적을 일도 없어요. 단어만 치면 뜻 · 발음 · 예문은 AI가 채워 줘요.</p>
+  <ul class="features">
+    <li><strong>단어만 치세요</strong>뜻 · 발음 · 품사가 채워지고, 예문도 한 번 누르면 나와요. 일본어는 가나로 쳐도 한자 단어가 떠요.</li>
+    <li><strong>단어장을 통째로 담아 와요</strong>수능 · 토익 · JLPT · 여행 회화 단어장이 라운지에 있어요.</li>
+    <li><strong>진짜 외웠는지 카드로 확인해요</strong>단어만 보고 뜻을 떠올린 뒤 넘겨서 맞춰 봐요.</li>
+    <li><strong>외운 만큼 표시하고, 남은 것만 봐요</strong>낯설어요 · 아리송 · 익숙 · 졸업, 네 단계로 나눠요.</li>
+    <li><strong>홈 화면에서 다시 봐요</strong>위젯에 띄워 두면 단어가 저절로 넘어가요. 뜻을 가리면 홈 화면이 시험지가 돼요. 색과 글씨 크기도 마음대로.</li>
+    <li><strong>엑셀에 모아 둔 단어도 한 번에</strong>CSV로 수백 개를 넣고, 내 단어장도 언제든 꺼내 가요.</li>
   </ul>
-  <p>로그인하지 않아도 단어장과 위젯 기능은 모두 사용할 수 있습니다.</p>
+  <p>로그인 없이도 다 쓸 수 있어요. 로그인하면 단어장이 백업돼서 폰을 바꿔도 이어서 써요.</p>
+
+  <h2>무료와 플러스</h2>
+  <p>단어 <strong>50개까지 무료</strong>예요. AI가 뜻을 채워 주는 것도, 단어마다 예문을 한 번 받는 것도 무료예요.</p>
+  <p>더 담고 싶으면 <strong>위젯보카 플러스</strong> &mdash; 단어 무제한, 광고 없음, 예문을 다른 문장으로 몇 번이고 다시 받기. 한 달 800원, 1년 4,900원이에요(한국 기준). 구독은 App Store · Google Play에서 언제든 해지할 수 있어요.</p>
 
   <h2>문의</h2>
-  <p>서비스 이용 중 불편한 점이나 문의사항은 아래 주소로 보내주세요.</p>
+  <p>쓰다가 불편한 점이나 궁금한 점은 아래 주소로 보내 주세요.</p>
   <p><a href="mailto:widgetvoca@gmail.com">widgetvoca@gmail.com</a></p>
 
   <h2>약관 및 정책</h2>
   <ul>
     <li><a href="privacy.html">개인정보처리방침</a></li>
     <li><a href="terms.html">서비스 이용약관</a></li>
+    <li><a href="delete-account.html">계정 및 데이터 삭제</a></li>
   </ul>
 </main>
 
